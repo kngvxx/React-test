@@ -1,5 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 const PageTitle = "LIT Journal";
 const PageTitleClass = "PageTitleMobile";
 const Logo = "https://learnit.how/graphics/logo.png";
@@ -18,7 +18,7 @@ export default function DesktopNavigation() {
     <div>
       <div className="MobileNavigation">
         <div className="MobileMenuIcon" onClick={ShowMenu}>
-        <FontAwesomeIcon icon="bars" />
+        <i class="fas fa-bars fa-2x"></i>
         </div>
         <div className={PageTitleClass}>{PageTitle}</div>
       </div>

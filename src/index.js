@@ -1,10 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
 import App from "./App";
 import DesktopNavigation from "./DesktopNavigation";
 import MobileNavigation from "./MobileNavigation";
-
 const rootElement = document.getElementById("root");
 
 function Greeting(props) {
@@ -20,6 +18,9 @@ function Greeting(props) {
       <div>
         <MobileNavigation />
         <App />
+        <div>
+
+  </div>
       </div>
     );
   }

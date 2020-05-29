@@ -54,10 +54,18 @@
   transform: translate(-50%, -50%);
 }
 .MobileMenuIcon {
-  height: 30px;
+  height: 20px;
   width: auto;
   float: left;
   padding: 0 !important;
+}
+.fas
+{
+padding:50%;
+}
+.MobileMenuIcon .fas:hover
+{
+opacity:0.5;
 }
 .Logo {
   padding: 2px;
