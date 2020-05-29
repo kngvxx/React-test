@@ -3,8 +3,6 @@ import React from "react";
 const PageTitle = "LIT Journal";
 const PageTitleClass = "PageTitleMobile";
 const Logo = "https://learnit.how/graphics/logo.png";
-const MobileMenuIcon =
-  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png";
 const ShowMenu = function() {
   var x = document.getElementById("LitMenu");
   if (x.style.display === "block") {
